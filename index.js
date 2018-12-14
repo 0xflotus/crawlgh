@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 require("request")(
   `https://github.com/${process.argv[2] || "0xflotus"}`,
   (_, __, body) =>
